@@ -68,7 +68,7 @@ class ext_update  {
 			foreach($fileContent as $line) {
 				$line = trim($line);
 				if ($line && preg_match('#^INSERT#i', $line) ) {
-					$query = $this->getUpdateEncoded($line, $destEncoding);
+					$query = $this->getInsertEncoded($line, $destEncoding);
 					$res = $GLOBALS['TYPO3_DB']->admin_query($query);
 				}
 			}
