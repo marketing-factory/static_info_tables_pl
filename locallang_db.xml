@@ -34,11 +34,11 @@
 	<languageKey index="pl" type="array">
 		<label index="static_countries_item.cn_official_name_pl">Nazwa oficjalna (PL):</label>
 		<label index="static_countries_item.cn_short_pl">Krótka nazwa (PL):</label>
-		<label index="static_country_zones_item.zn_name_pl">Name (PL):</label>
+		<label index="static_country_zones_item.zn_name_pl">Nazwa (PL):</label>
 		<label index="static_currencies_item.cu_name_pl">Nazwa (PL):</label>
 		<label index="static_currencies_item.cu_sub_name_pl">Podnazwa (PL):</label>
 		<label index="static_languages_item.lg_name_pl">Nazwa (PL):</label>
-		<label index="static_territories_item.tr_name_pl">Name (PL):</label>
+		<label index="static_territories_item.tr_name_pl">Nazwa (PL):</label>
 	</languageKey>
 	<languageKey index="si" type="array">
 	</languageKey>

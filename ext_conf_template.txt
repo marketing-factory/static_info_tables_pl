@@ -1,2 +1,3 @@
-  # cat=basic//10; type=boolean; label= ATTENTION: To import the data you have to select "UPDATE!" in the menu. Before doing so, you may have to create the database fields by clicking the "Make updates" button or the "Update" button here.
-dummy = 0
+
+  # cat=basic; type=string; label=charset: Specify the charset of the tables in the database. Enter here the same charset you have used with the UPDATE! import function.
+charset = utf-8

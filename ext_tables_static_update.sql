@@ -723,6 +723,7 @@ UPDATE static_country_zones SET zn_name_pl = 'Wyoming' WHERE zn_country_iso_2 = 
 ##UPDATE static_country_zones SET zn_name_pl = '' WHERE zn_country_iso_2 = 'BR' AND zn_code = 'SP';
 ##UPDATE static_country_zones SET zn_name_pl = '' WHERE zn_country_iso_2 = 'BR' AND zn_code = 'TO';
 
+
 ## Update for data inserted previously from the ext_tables_static_insert.sql file
 UPDATE static_country_zones SET zn_name_pl = zn_name_local WHERE zn_country_iso_2 = 'PL'
 

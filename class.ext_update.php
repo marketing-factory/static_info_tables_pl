@@ -50,37 +50,16 @@ class ext_update  {
 
 			$destEncoding = t3lib_div::_GP('dest_encoding');
 			$extPath = t3lib_extMgm::extPath('static_info_tables_pl');
-
-			// <INSERT>
-			/*
-				The <INSERT> block must be here as long as polish zones are not included in static_info_tables
-				(see http://forge.typo3.org/issues/28104 )
-			*/
-			// Remove polish zones if exist
-			$GLOBALS['TYPO3_DB']->exec_DELETEquery(
-				'static_country_zones',
-				'zn_country_iso_2=\'PL\' AND zn_country_iso_3 = \'POL\''
-			);
-			
-			// Insert polish zones
-			$fileContent = explode("\n", t3lib_div::getUrl($extPath.'ext_tables_static_insert.sql'));
-
-			foreach($fileContent as $line) {
-				$line = trim($line);
-				if ($line && preg_match('#^INSERT#i', $line) ) {
-					$query = $this->getInsertEncoded($line, $destEncoding);
-					$res = $GLOBALS['TYPO3_DB']->admin_query($query);
-				}
-			}
-			// </INSERT>
 			
 			// Update polish labels
-			$fileContent = explode("\n", t3lib_div::getUrl($extPath.'ext_tables_static_update.sql'));
+			$fileContent = explode("\n", t3lib_div::getURL($extPath.'ext_tables_static_update.sql'));
 
 			foreach($fileContent as $line) {
 				$line = trim($line);
 				if ($line && preg_match('#^UPDATE#i', $line) ) {
 					$query = $this->getUpdateEncoded($line, $destEncoding);
+					if (TYPO3_DLOG)
+						t3lib_div::devLog('SQL Query', 'static_info_tables_pl', 0, array('query:' => $query));
 					$res = $GLOBALS['TYPO3_DB']->admin_query($query);
 				}
 			}
@@ -139,58 +118,7 @@ class ext_update  {
 				$fields_values[$col[0]] = $value;
 			}
 
-			$query = $GLOBALS['TYPO3_DB']->UPDATEquery($table,$where,$fields_values);				
-		}
-		return $query;
-	}
-
-
-	/**
-	 * Convert the values of a SQL insert statement to a different encoding than UTF-8.
-	 *
-	 * @param string $query Insert statement like: INSERT INTO static_countries (field list) VALUES (values list);
-	 * @param string $destEncoding Destination encoding
-	 * @return string Converted insert statement
-	 */
-	function getInsertEncoded($query, $destEncoding) {
-		static $csconv;
-
-		if (!($destEncoding==='utf-8')) {
-			if(!is_object($csconv)) {
-				$csconv = t3lib_div::makeInstance('t3lib_cs');
-			}
-
-			$queryElements = explode('VALUES', $query);
-			$queryElements = $queryElements[0];
-			$queryValues = $queryElements[1];
-
-			$queryValues = explode('(', $queryValues);
-			$queryValues = $queryValues[1];
-			$queryValues = explode(')', $queryValues);
-			$queryValues = $queryValues[0];
-
-			$queryElements = explode('(', $queryElements);
-			$table = $queryElements[0];
-			$queryFields = $queryElements[1];
-
-			$table = trim(strstr($table, ' '));
-			$queryFields = explode(')', $queryFields);
-			$queryFields = $queryFields[0];
-
-
-			$fields_values = array();
-			$queryFieldsArray = preg_split('/[,]/', $queryFields, 1);
-			$queryValuesArray = preg_split('/[,]/', $queryValues, 1);
-			
-			$nFields = count($queryFieldsArray);
-			
-			if( $nFields = count($queryValuesArray) ) {
-				for($i = 0; $i < $nFields; $i++) {
-					$fields_values[] = array($queryFieldsArray[$i] => $queryValuesArray[$i]);
-				}
-			}
-
-			$query = $GLOBALS['TYPO3_DB']->INSERTquery($table,$fields_values);			
+			$query = $GLOBALS['TYPO3_DB']->exec_UPDATEquery($table,$where,$fields_values);				
 		}
 		return $query;
 	}

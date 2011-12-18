@@ -1,7 +1,10 @@
-2011-06-15 
-	* Got a list of Polish names for countries.
+2011-12-18  Tomasz Krawczyk  <tomasz@typo3.pl>
+	* Made changes for compatibility with static_info_tables v. 2.3.0.
 
 2011-08-03  Tomasz Krawczyk  <tomasz@typo3.pl>
 	* Updated Polish countries.
 	* Added Polish zones, languages, territories and a few currencies.
 	* Updated US zones.
+
+2011-06-15 
+	* Got a list of Polish names for countries.
