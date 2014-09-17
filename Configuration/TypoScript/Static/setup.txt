@@ -1,0 +1,6 @@
+plugin.tx_staticinfotables_pi1 {
+	currencyCode = PLN
+	countryCode = POL
+	countryZoneCode = WP
+	languageCode = PL
+}
