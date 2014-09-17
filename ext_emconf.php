@@ -1,14 +1,14 @@
 <?php
 
-########################################################################
-# Extension Manager/Repository config file for ext "static_info_tables_pl".
-#
-# Auto generated 18-05-2011 16:00
-#
-# Manual updates:
-# Only the data in the array - everything else is removed by next
-# writing. "version" and "dependencies" must not be touched!
-########################################################################
+/***************************************************************
+ * Extension Manager/Repository config file for ext "static_info_tables_pl".
+ *
+ * Auto generated 17-09-2014 15:31
+ *
+ * Manual updates:
+ * Only the data in the array - everything else is removed by next
+ * writing. "version" and "dependencies" must not be touched!
+ ***************************************************************/
 
 $EM_CONF[$_EXTKEY] = array(
 	'title' => 'Static Info Tables (pl)',
@@ -35,15 +35,15 @@ $EM_CONF[$_EXTKEY] = array(
 	'constraints' => array(
 		'depends' => array(
 			'static_info_tables' => '2.3.0-2.3.99',
-			'php' => '5.3.0-5.3.99',
-			'typo3' => '4.5-4.7.99',
+			'php' => '5.3.0-5.4.99',
+			'typo3' => '4.5.0-4.7.99',
 		),
 		'conflicts' => array(
 		),
 		'suggests' => array(
 		),
 	),
-	'_md5_values_when_last_written' => 'a:9:{s:9:"ChangeLog";s:4:"d9a8";s:20:"class.ext_update.php";s:4:"0db3";s:21:"ext_conf_template.txt";s:4:"7de5";s:12:"ext_icon.gif";s:4:"639f";s:17:"ext_localconf.php";s:4:"096d";s:14:"ext_tables.php";s:4:"ef3a";s:14:"ext_tables.sql";s:4:"152a";s:28:"ext_tables_static_update.sql";s:4:"2043";s:16:"locallang_db.xml";s:4:"c00c";}',
+	'_md5_values_when_last_written' => 'a:10:{s:9:"ChangeLog";s:4:"892b";s:20:"class.ext_update.php";s:4:"eb4d";s:21:"ext_conf_template.txt";s:4:"6adb";s:12:"ext_icon.gif";s:4:"639f";s:17:"ext_localconf.php";s:4:"64ca";s:14:"ext_tables.php";s:4:"5eb0";s:14:"ext_tables.sql";s:4:"6827";s:28:"ext_tables_static_update.sql";s:4:"2f65";s:16:"locallang_db.xml";s:4:"b710";s:10:"README.txt";s:4:"61a7";}',
 );
 
 ?>
