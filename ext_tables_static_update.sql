@@ -9,7 +9,7 @@ UPDATE static_countries SET cn_short_pl = 'Armenia', cn_official_name_pl = 'Repu
 UPDATE static_countries SET cn_short_pl = 'Antyle Holenderskie' WHERE cn_iso_2 = 'AN';
 UPDATE static_countries SET cn_short_pl = 'Angola' WHERE cn_iso_2 = 'AO';
 UPDATE static_countries SET cn_short_pl = 'Antarktyda' WHERE cn_iso_2 = 'AQ';
-UPDATE static_countries SET cn_short_pl = 'Antarctica', cn_official_name_pl = 'Republika Argentyńska' WHERE cn_iso_2 = 'AR';
+UPDATE static_countries SET cn_short_pl = 'Argentyna', cn_official_name_pl = 'Republika Argentyńska' WHERE cn_iso_2 = 'AR';
 UPDATE static_countries SET cn_short_pl = 'Samoa Amerykańskie' WHERE cn_iso_2 = 'AS';
 UPDATE static_countries SET cn_short_pl = 'Austria', cn_official_name_pl = 'Republika Austrii' WHERE cn_iso_2 = 'AT';
 UPDATE static_countries SET cn_short_pl = 'Australia' WHERE cn_iso_2 = 'AU';
