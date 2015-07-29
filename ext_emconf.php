@@ -14,7 +14,7 @@ $EM_CONF[$_EXTKEY] = array (
 	'title' => 'Static Info Tables (pl)',
 	'description' => '(pl) language pack for the Static Info Tables providing localized names for countries.',
 	'category' => 'misc',
-	'version' => '1.0.1',
+	'version' => '1.2.0',
 	'state' => 'stable',
 	'uploadfolder' => 0,
 	'createDirs' => '',
@@ -25,7 +25,7 @@ $EM_CONF[$_EXTKEY] = array (
 	'constraints' => array(
 		'depends' => array(
 			'static_info_tables' => '6.0.0-6.2.99',
-			'php' => '5.3.0-5.4.99',
+			'php' => '5.3.0-5.6.99',
 			'typo3' => '6.0.6-6.2.99',
 		),
 		'conflicts' => array(
