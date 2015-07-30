@@ -5,6 +5,7 @@ namespace SJBR\StaticInfoTables\Domain\Model;
 *
 *  (c) 2011-2012 Armin Rüdiger Vieweg <info@professorweb.de>
 *  (c) 2013 Stanislas Rolland <typo3(arobas)sjbr.ca>
+*  (c) 2015 Tomasz Krawczyk <tomasz(na)typo3.pl>
 *
 *  All rights reserved
 *
@@ -44,6 +45,12 @@ class Country extends AbstractEntity {
 	protected $officialNamePl = '';
 
 	/**
+	 * The Polish capital name
+	 * @var string
+	 */
+	protected $capitalPl = '';
+	
+	/**
 	 * Sets the Polish short name.
 	 *
 	 * @param string $shortNamePl
@@ -82,6 +89,25 @@ class Country extends AbstractEntity {
 	public function getOfficialNamePl() {
 		return $this->officialNamePl;
 	}
+
+	/**
+	 * Sets the Polish short name.
+	 *
+	 * @param string $capitalPl
+	 *
+	 * @return void
+	 */
+	public function setCapitalPl($capitalPl) {
+		$this->capitalPl = $capitalPl;
+	}
+
+	/**
+	 * Gets the Polish short name.
+	 *
+	 * @return string
+	 */
+	public function getCapitalPl() {
+		return $this->capitalPl;
+	}
 	
 }
-?>

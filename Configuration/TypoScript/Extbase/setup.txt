@@ -6,6 +6,7 @@ config.tx_extbase {
 					columns {
 						cn_short_pl.mapOnProperty = shortNamePl
 						cn_official_name_pl.mapOnProperty = officialNamePl
+						cn_capital_pl.mapOnProperty = capitalPl
 					}
 				}
 			}

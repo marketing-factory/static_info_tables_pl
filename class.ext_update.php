@@ -4,7 +4,7 @@ use \TYPO3\CMS\Core\Utility\ExtensionManagementUtility;
 /***************************************************************
 *  Copyright notice
 *
-*  (c) 2005-2008 René Fritz (r.fritz@colorcube.de)
+*  (c) 2005-2015 René Fritz (r.fritz@colorcube.de)
 *  All rights reserved
 *
 *  This script is part of the Typo3 project. The Typo3 project is
@@ -54,7 +54,7 @@ class ext_update  {
 			$extPath = ExtensionManagementUtility::extPath('static_info_tables_pl');
 			
 			// Update polish labels
-			$fileContent = explode("\n", GeneralUtility::getURL($extPath.'ext_tables_static_update.sql'));
+			$fileContent = explode("\n", GeneralUtility::getURL($extPath . 'ext_tables_static_update.sql'));
 
 			foreach($fileContent as $line) {
 				$line = trim($line);
@@ -66,14 +66,14 @@ class ext_update  {
 				}
 			}
 			$content .= '<br />';
-			$content .= '<p>Encoding: '.htmlspecialchars($destEncoding).'</p>';
+			$content .= '<p>Encoding: ' . htmlspecialchars($destEncoding) . '</p>';
 			$content .= '<p>Done.</p>';
 		} elseif (ExtensionManagementUtility::isLoaded('static_info_tables')) {
 
 			$content .= '</form>';
-			$content .= '<form action="'.htmlspecialchars(GeneralUtility::linkThisScript()).'" method="post">';
+			$content .= '<form action="' . htmlspecialchars(GeneralUtility::linkThisScript()) . '" method="post">';
 			$content .= '<br />Destination character encoding:';
-			$content .= '<br />'.tx_staticinfotables_encoding::getEncodingSelect('dest_encoding', '', 'utf-8');
+			$content .= '<br />' . tx_staticinfotables_encoding::getEncodingSelect('dest_encoding', '', 'utf-8');
 			$content .= '<br />(The character encoding must match the encoding of the existing tables data. By default this is UTF-8.)';
 			$content .= '<br /><br />';
 			$content .= '<input type="submit" name="import" value="Import" />';
