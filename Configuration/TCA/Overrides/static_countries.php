@@ -7,7 +7,7 @@ $additionalFields = [
     'cn_capital' => 'cn_capital_pl',
 ];
 
-$LL = 'LLL:EXT:static_info_tables_de/Resources/Private/Language/locallang_db.xlf:static_countries_item.';
+$LL = 'LLL:EXT:static_info_tables_pl/Resources/Private/Language/locallang_db.xlf:static_countries_item.';
 
 foreach ($additionalFields as $sourceField => $destField) {
     $additionalColumns = [];
