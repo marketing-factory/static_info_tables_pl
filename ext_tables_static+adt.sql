@@ -207,7 +207,7 @@ UPDATE static_countries SET cn_short_pl = 'Tadżykistan', cn_official_name_pl = 
 UPDATE static_countries SET cn_short_pl = 'Tokelau' WHERE cn_iso_2 = 'TK';
 UPDATE static_countries SET cn_short_pl = 'Turkmenistan', cn_capital_pl = 'Aszchabad' WHERE cn_iso_2 = 'TM';
 UPDATE static_countries SET cn_short_pl = 'Tunezja', cn_official_name_pl = 'Republika Tunezyjska', cn_capital_pl = 'Tunis' WHERE cn_iso_2 = 'TN';
-UPDATE static_countries SET cn_short_pl = 'Tonga', cn_official_name_pl = 'Królestwo Tonga', cn_capital_pl = 'Nuku''alofa' WHERE cn_iso_2 = 'TO';
+UPDATE static_countries SET cn_short_pl = 'Tonga', cn_official_name_pl = 'Królestwo Tonga', cn_capital_pl = 'Nuku alofa' WHERE cn_iso_2 = 'TO';
 UPDATE static_countries SET cn_short_pl = 'Timor Wschodni', cn_official_name_pl = 'Demokratyczna Republika Timoru Wschodniego', cn_capital_pl = 'Dili' WHERE cn_iso_2 = 'TL';
 UPDATE static_countries SET cn_short_pl = 'Turcja', cn_official_name_pl = 'Republika Turcji', cn_capital_pl = 'Ankara' WHERE cn_iso_2 = 'TR';
 UPDATE static_countries SET cn_short_pl = 'Trynidad i Tobago', cn_capital_pl = 'Port-of-Spain' WHERE cn_iso_2 = 'TT';
@@ -532,7 +532,7 @@ UPDATE static_languages SET lg_name_pl = 'łaciński' WHERE lg_iso_2 = 'LA' AND 
 UPDATE static_languages SET lg_name_pl = 'sanskryt' WHERE lg_iso_2 = 'SA' AND lg_country_iso_2 = '';
 UPDATE static_languages SET lg_name_pl = 'volapük' WHERE lg_iso_2 = 'VO' AND lg_country_iso_2 = '';
 UPDATE static_languages SET lg_name_pl = 'jidysz' WHERE lg_iso_2 = 'YI' AND lg_country_iso_2 = '';
-##http://pl.wikipedia.org/wiki/Alfabet_awestyjski
+## http://pl.wikipedia.org/wiki/Alfabet_awestyjski
 UPDATE static_languages SET lg_name_pl = 'awestyjski' WHERE lg_iso_2 = 'AE' AND lg_country_iso_2 = '';
 UPDATE static_languages SET lg_name_pl = 'staro-cerkiewno-słowiański' WHERE lg_iso_2 = 'CU' AND lg_country_iso_2 = '';
 UPDATE static_languages SET lg_name_pl = 'ido' WHERE lg_iso_2 = 'IO' AND lg_country_iso_2 = '';
