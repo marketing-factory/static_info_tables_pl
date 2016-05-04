@@ -6,7 +6,7 @@ $additionalFields = [
     'cu_sub_name_en' => 'cu_sub_name_pl'
 ];
 
-$LL = 'LLL:EXT:static_info_tables_de/Resources/Private/Language/locallang_db.xlf:static_currencies_item.';
+$LL = 'LLL:EXT:static_info_tables_pl/Resources/Private/Language/locallang_db.xlf:static_currencies_item.';
 
 foreach ($additionalFields as $sourceField => $destField) {
     $additionalColumns = [];
