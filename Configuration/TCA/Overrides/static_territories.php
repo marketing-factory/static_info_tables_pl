@@ -5,7 +5,7 @@ $additionalFields = [
     'tr_name_en' => 'tr_name_pl'
 ];
 
-$LL = 'LLL:EXT:static_info_tables_de/Resources/Private/Language/locallang_db.xlf:static_territories_item.';
+$LL = 'LLL:EXT:static_info_tables_pl/Resources/Private/Language/locallang_db.xlf:static_territories_item.';
 
 foreach ($additionalFields as $sourceField => $destField) {
     $additionalColumns = [];
