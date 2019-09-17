@@ -6,8 +6,8 @@
 conf.py:
   copyright: 2019
   project: Static Info Tables (pl)
-  version: 6.7
-  release: 6.7.0
+  version: 6.8
+  release: 6.8.0
   latex_documents:
   - - Index
     - static_info_tables_pl.tex
