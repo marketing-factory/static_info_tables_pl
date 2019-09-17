@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <xliff version="1.0">
-	<file source-language="en" datatype="plaintext" original="messages" date="2015-07-30T15:19:07Z" product-name="static_info_tables_pl">
+	<file source-language="en" datatype="plaintext" original="messages" date="2013-02-21T01:35:44Z"
+		  product-name="static_info_tables_pl">
 		<header/>
 		<body>
 			<trans-unit id="static_territories_item.tr_name_pl" xml:space="preserve">
