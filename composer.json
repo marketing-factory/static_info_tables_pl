@@ -1,27 +1,19 @@
 {
-  "name": "renolit/static-info-tables-pl",
+  "name": "sjbr/static-info-tables-pl",
   "type": "typo3-cms-extension",
   "description": "Polish (pl) language pack for the Static Info Tables providing localized names for countries, currencies and so on. TYPO3 extension.",
-  "license": "GPL-2.0+",
-  "repositories": [
-    {
-      "type": "composer",
-      "url": "https://composer.typo3.org"
-    }
-  ],
+  "license": "GPL-2.0-or-later",
   "keywords": [
     "TYPO3 CMS",
     "Static Info Tables"
   ],
   "support": {
-    "issues": "https://github.com/franzholz/static_info_tables_pl/issues"
+    "issues": "https://github.com/marketing-factory/static_info_tables_pl/issues"
   },
-  "homepage": "https://www.renolit.com",
   "authors": [
     {
-      "name": "Ephraim Härer",
-      "role": "Developer",
-      "homepage": "https://www.renolit.com"
+      "name": "Simon Schmidt",
+      "role": "Developer"
     }
   ],
   "replace": {
@@ -32,10 +24,5 @@
     "php": "^7.0",
     "typo3/cms-core": "^8.7 || ^9.5",
     "sjbr/static-info-tables": "^6.7"
-  },
-  "extra": {
-    "typo3/cms": {
-      "extension-key": "static_info_tables_pl"
-    }
   }
 }

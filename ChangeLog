@@ -1,3 +1,8 @@
+2019-10-08  Ephraim Härer  <ephraim.haerer@renolit.com>
+    * updates for TYPO3 9.5
+    * release of version 6.8.1
+
+
 2019-06-11  Ephraim Härer  <ephraim.haerer@renolit.com>
-    * compatibility up to TYPO3 9.5
+    * compatibility for TYPO3 9.5
     * release of version 6.8.0
