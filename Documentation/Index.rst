@@ -33,10 +33,10 @@ Static Info Tables (it)
 		2019
 
 	:Author:
-		Ephraim Härer
+		Simon Schmidt
 
 	:Email:
-		ephraim.haerer@renolit.com
+		sfs@marketing-factory.de
 
 	:License:
 		This document is published under the Open Content License
