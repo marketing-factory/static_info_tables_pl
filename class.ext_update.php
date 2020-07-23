@@ -1,4 +1,5 @@
 <?php
+
 namespace SJBR\StaticInfoTablesPl;
 
 /*
@@ -35,6 +36,7 @@ use TYPO3\CMS\Extbase\Utility\LocalizationUtility;
  */
 class ext_update
 {
+
     const EXTENSION_KEY = 'static_info_tables_pl';
 
     /**
@@ -58,7 +60,7 @@ class ext_update
         $databaseUpdateUtility->doUpdate(self::EXTENSION_KEY);
 
         $updateLanguageLabels = LocalizationUtility::translate('updateLanguageLabels', 'StaticInfoTables');
-        $content.= '<p>' . $updateLanguageLabels . ' '. self::EXTENSION_KEY . '</p>';
+        $content .= '<p>' . $updateLanguageLabels . ' ' . self::EXTENSION_KEY . '</p>';
         return $content;
     }
 

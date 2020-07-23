@@ -1,31 +1,8 @@
-2015-07-30  Tomasz Krawczyk  <tomasz@typo3.pl>
-	* Added support for capitals.
-	* Added a few currencies.
-	* Updated PHP dependency to 5.6.
-	* Added compatibility with TYPO3 6.2.
-	* Dropped support for TYPO3 older than 6.2.
+2019-10-08  Ephraim Härer  <ephraim.haerer@renolit.com>
+    * updates for TYPO3 9.5
+    * release of version 6.8.1
 
-2014-09-17  Tomasz Krawczyk  <tomasz@typo3.pl>
-	* Made changes for compatibility with static_info_tables v. 6.1.0.
-	* Removed commented out sql commands from the ext_tables_static_update.sql file.
-	* Updated dependencies.
 
-2014-09-17  Tomasz Krawczyk  <tomasz@typo3.pl>
-	* Updated dependencies.
-
-2014-08-17  Simon Schmidt
-	* Update dependencies and bugfix name for argentina.
-
-2013-03-11  Simon Schmidt
-	* Updated dependencies.
-
-2011-12-18  Tomasz Krawczyk  <tomasz@typo3.pl>
-	* Made changes for compatibility with static_info_tables v. 2.3.0.
-
-2011-08-03  Tomasz Krawczyk  <tomasz@typo3.pl>
-	* Updated Polish countries.
-	* Added Polish zones, languages, territories and a few currencies.
-	* Updated US zones.
-
-2011-06-15 
-	* Got a list of Polish names for countries.
+2019-06-11  Ephraim Härer  <ephraim.haerer@renolit.com>
+    * compatibility for TYPO3 9.5
+    * release of version 6.8.0

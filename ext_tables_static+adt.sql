@@ -250,66 +250,8 @@ UPDATE static_countries SET cn_short_pl = 'Sint Maarten', cn_capital_pl = 'Phili
 UPDATE static_countries SET cn_short_pl = 'Sudan Południowy' WHERE cn_iso_2='SS';
 UPDATE static_countries SET cn_official_name_pl = cn_short_pl WHERE cn_official_name_pl='' OR cn_official_name_pl IS NULL;
 
-
-## static_country_zones
-UPDATE static_country_zones SET zn_name_pl = 'Alabama' WHERE zn_country_iso_2 = 'US' AND zn_code = 'AL';
-UPDATE static_country_zones SET zn_name_pl = 'Alaska' WHERE zn_country_iso_2 = 'US' AND zn_code = 'AK';
-UPDATE static_country_zones SET zn_name_pl = 'Arizona' WHERE zn_country_iso_2 = 'US' AND zn_code = 'AZ';
-UPDATE static_country_zones SET zn_name_pl = 'Arkansas' WHERE zn_country_iso_2 = 'US' AND zn_code = 'AR';
-UPDATE static_country_zones SET zn_name_pl = 'Kalifornien' WHERE zn_country_iso_2 = 'US' AND zn_code = 'CA';
-UPDATE static_country_zones SET zn_name_pl = 'Kalifornia' WHERE zn_country_iso_2 = 'US' AND zn_code = 'CO';
-UPDATE static_country_zones SET zn_name_pl = 'Connecticut' WHERE zn_country_iso_2 = 'US' AND zn_code = 'CT';
-UPDATE static_country_zones SET zn_name_pl = 'Delaware' WHERE zn_country_iso_2 = 'US' AND zn_code = 'DE';
-UPDATE static_country_zones SET zn_name_pl = 'Dystrykt Kolumbia' WHERE zn_country_iso_2 = 'US' AND zn_code = 'DC';
-UPDATE static_country_zones SET zn_name_pl = 'Floryda' WHERE zn_country_iso_2 = 'US' AND zn_code = 'FL';
-UPDATE static_country_zones SET zn_name_pl = 'Georgia' WHERE zn_country_iso_2 = 'US' AND zn_code = 'GA';
-UPDATE static_country_zones SET zn_name_pl = 'Guam' WHERE zn_country_iso_2 = 'US' AND zn_code = 'GU';
-UPDATE static_country_zones SET zn_name_pl = 'Hawaje' WHERE zn_country_iso_2 = 'US' AND zn_code = 'HI';
-UPDATE static_country_zones SET zn_name_pl = 'Idaho' WHERE zn_country_iso_2 = 'US' AND zn_code = 'ID';
-UPDATE static_country_zones SET zn_name_pl = 'Illinois' WHERE zn_country_iso_2 = 'US' AND zn_code = 'IL';
-UPDATE static_country_zones SET zn_name_pl = 'Indiana' WHERE zn_country_iso_2 = 'US' AND zn_code = 'IN';
-UPDATE static_country_zones SET zn_name_pl = 'Iowa' WHERE zn_country_iso_2 = 'US' AND zn_code = 'IA';
-UPDATE static_country_zones SET zn_name_pl = 'Kansas' WHERE zn_country_iso_2 = 'US' AND zn_code = 'KS';
-UPDATE static_country_zones SET zn_name_pl = 'Kentucky' WHERE zn_country_iso_2 = 'US' AND zn_code = 'KY';
-UPDATE static_country_zones SET zn_name_pl = 'Luizjana' WHERE zn_country_iso_2 = 'US' AND zn_code = 'LA';
-UPDATE static_country_zones SET zn_name_pl = 'Maine' WHERE zn_country_iso_2 = 'US' AND zn_code = 'ME';
-UPDATE static_country_zones SET zn_name_pl = 'Maryland' WHERE zn_country_iso_2 = 'US' AND zn_code = 'MD';
-UPDATE static_country_zones SET zn_name_pl = 'Massachusetts' WHERE zn_country_iso_2 = 'US' AND zn_code = 'MA';
-UPDATE static_country_zones SET zn_name_pl = 'Michigan' WHERE zn_country_iso_2 = 'US' AND zn_code = 'MI';
-UPDATE static_country_zones SET zn_name_pl = 'Minnesota' WHERE zn_country_iso_2 = 'US' AND zn_code = 'MN';
-UPDATE static_country_zones SET zn_name_pl = 'Missisipi' WHERE zn_country_iso_2 = 'US' AND zn_code = 'MS';
-UPDATE static_country_zones SET zn_name_pl = 'Missouri' WHERE zn_country_iso_2 = 'US' AND zn_code = 'MO';
-UPDATE static_country_zones SET zn_name_pl = 'Montana' WHERE zn_country_iso_2 = 'US' AND zn_code = 'MT';
-UPDATE static_country_zones SET zn_name_pl = 'Nebraska' WHERE zn_country_iso_2 = 'US' AND zn_code = 'NE';
-UPDATE static_country_zones SET zn_name_pl = 'Nevada' WHERE zn_country_iso_2 = 'US' AND zn_code = 'NV';
-UPDATE static_country_zones SET zn_name_pl = 'New Hampshire' WHERE zn_country_iso_2 = 'US' AND zn_code = 'NH';
-UPDATE static_country_zones SET zn_name_pl = 'New Jersey' WHERE zn_country_iso_2 = 'US' AND zn_code = 'NJ';
-UPDATE static_country_zones SET zn_name_pl = 'Nowy Meksyk' WHERE zn_country_iso_2 = 'US' AND zn_code = 'NM';
-UPDATE static_country_zones SET zn_name_pl = 'Nowy Jork' WHERE zn_country_iso_2 = 'US' AND zn_code = 'NY';
-UPDATE static_country_zones SET zn_name_pl = 'Karolina Północna' WHERE zn_country_iso_2 = 'US' AND zn_code = 'NC';
-UPDATE static_country_zones SET zn_name_pl = 'Dakota Północna' WHERE zn_country_iso_2 = 'US' AND zn_code = 'ND';
-UPDATE static_country_zones SET zn_name_pl = 'Ohio' WHERE zn_country_iso_2 = 'US' AND zn_code = 'OH';
-UPDATE static_country_zones SET zn_name_pl = 'Oklahoma' WHERE zn_country_iso_2 = 'US' AND zn_code = 'OK';
-UPDATE static_country_zones SET zn_name_pl = 'Oregon' WHERE zn_country_iso_2 = 'US' AND zn_code = 'OR';
-UPDATE static_country_zones SET zn_name_pl = 'Pensylwania' WHERE zn_country_iso_2 = 'US' AND zn_code = 'PA';
-UPDATE static_country_zones SET zn_name_pl = 'Portoryko' WHERE zn_country_iso_2 = 'US' AND zn_code = 'PR';
-UPDATE static_country_zones SET zn_name_pl = 'Rhode Island' WHERE zn_country_iso_2 = 'US' AND zn_code = 'RI';
-UPDATE static_country_zones SET zn_name_pl = 'Karolina Południowa' WHERE zn_country_iso_2 = 'US' AND zn_code = 'SC';
-UPDATE static_country_zones SET zn_name_pl = 'Dakota Południowa' WHERE zn_country_iso_2 = 'US' AND zn_code = 'SD';
-UPDATE static_country_zones SET zn_name_pl = 'Tennessee' WHERE zn_country_iso_2 = 'US' AND zn_code = 'TN';
-UPDATE static_country_zones SET zn_name_pl = 'Teksas' WHERE zn_country_iso_2 = 'US' AND zn_code = 'TX';
-UPDATE static_country_zones SET zn_name_pl = 'Utah' WHERE zn_country_iso_2 = 'US' AND zn_code = 'UT';
-UPDATE static_country_zones SET zn_name_pl = 'Vermont' WHERE zn_country_iso_2 = 'US' AND zn_code = 'VT';
-UPDATE static_country_zones SET zn_name_pl = 'Wirginia' WHERE zn_country_iso_2 = 'US' AND zn_code = 'VA';
-UPDATE static_country_zones SET zn_name_pl = 'Waszyngton' WHERE zn_country_iso_2 = 'US' AND zn_code = 'WA';
-UPDATE static_country_zones SET zn_name_pl = 'Wirginia Zachodnia' WHERE zn_country_iso_2 = 'US' AND zn_code = 'WV';
-UPDATE static_country_zones SET zn_name_pl = 'Wisconsin' WHERE zn_country_iso_2 = 'US' AND zn_code = 'WI';
-UPDATE static_country_zones SET zn_name_pl = 'Wyoming' WHERE zn_country_iso_2 = 'US' AND zn_code = 'WY';
-
-
 ## Update for data inserted previously by static_info_tables
-UPDATE static_country_zones SET zn_name_pl = zn_name_local WHERE zn_country_iso_2 = 'PL'
-
+UPDATE static_country_zones SET zn_name_pl = zn_name_local WHERE zn_country_iso_2 = 'PL';
 
 ## static_currencies
 UPDATE static_currencies SET cu_name_pl = 'Dolar australijski', cu_sub_name_pl = 'cent' WHERE cu_iso_3='AUD';
@@ -337,7 +279,6 @@ UPDATE static_currencies SET cu_name_pl = 'Rubel rosyjski', cu_sub_name_pl = 'ko
 UPDATE static_currencies SET cu_name_pl = 'Korona szwedzka', cu_sub_name_pl = 'öre' WHERE cu_iso_3='SEK';
 UPDATE static_currencies SET cu_name_pl = 'Hrywna', cu_sub_name_pl = 'kopiejka' WHERE cu_iso_3='UAH';
 UPDATE static_currencies SET cu_name_pl = 'Dolar amerykański', cu_sub_name_pl = 'cent' WHERE cu_iso_3='USD';
-
 
 ## static_languages
 UPDATE static_languages SET lg_name_pl = 'abchaski' WHERE lg_iso_2 = 'AB' AND lg_country_iso_2 = '';
@@ -538,7 +479,6 @@ UPDATE static_languages SET lg_name_pl = 'staro-cerkiewno-słowiański' WHERE lg
 UPDATE static_languages SET lg_name_pl = 'ido' WHERE lg_iso_2 = 'IO' AND lg_country_iso_2 = '';
 UPDATE static_languages SET lg_name_pl = 'pali' WHERE lg_iso_2 = 'PI' AND lg_country_iso_2 = '';
 
-
 ## static_territories
 UPDATE static_territories SET tr_name_pl = 'Afryka' WHERE tr_iso_nr = '2';
 UPDATE static_territories SET tr_name_pl = 'Oceania' WHERE tr_iso_nr = '9';
@@ -567,3 +507,61 @@ UPDATE static_territories SET tr_name_pl = 'Melanezja' WHERE tr_iso_nr = '54';
 UPDATE static_territories SET tr_name_pl = 'Mikronezja' WHERE tr_iso_nr = '57';
 UPDATE static_territories SET tr_name_pl = 'Polinezia' WHERE tr_iso_nr = '61';
 UPDATE static_territories SET tr_name_pl = 'Azja południowa' WHERE tr_iso_nr = '34';
+
+## static_country_zones
+UPDATE static_country_zones SET zn_name_pl = 'Alabama' WHERE zn_country_iso_2 = 'US' AND zn_code = 'AL';
+UPDATE static_country_zones SET zn_name_pl = 'Alaska' WHERE zn_country_iso_2 = 'US' AND zn_code = 'AK';
+UPDATE static_country_zones SET zn_name_pl = 'Arizona' WHERE zn_country_iso_2 = 'US' AND zn_code = 'AZ';
+UPDATE static_country_zones SET zn_name_pl = 'Arkansas' WHERE zn_country_iso_2 = 'US' AND zn_code = 'AR';
+UPDATE static_country_zones SET zn_name_pl = 'Kalifornien' WHERE zn_country_iso_2 = 'US' AND zn_code = 'CA';
+UPDATE static_country_zones SET zn_name_pl = 'Kalifornia' WHERE zn_country_iso_2 = 'US' AND zn_code = 'CO';
+UPDATE static_country_zones SET zn_name_pl = 'Connecticut' WHERE zn_country_iso_2 = 'US' AND zn_code = 'CT';
+UPDATE static_country_zones SET zn_name_pl = 'Delaware' WHERE zn_country_iso_2 = 'US' AND zn_code = 'DE';
+UPDATE static_country_zones SET zn_name_pl = 'Dystrykt Kolumbia' WHERE zn_country_iso_2 = 'US' AND zn_code = 'DC';
+UPDATE static_country_zones SET zn_name_pl = 'Floryda' WHERE zn_country_iso_2 = 'US' AND zn_code = 'FL';
+UPDATE static_country_zones SET zn_name_pl = 'Georgia' WHERE zn_country_iso_2 = 'US' AND zn_code = 'GA';
+UPDATE static_country_zones SET zn_name_pl = 'Guam' WHERE zn_country_iso_2 = 'US' AND zn_code = 'GU';
+UPDATE static_country_zones SET zn_name_pl = 'Hawaje' WHERE zn_country_iso_2 = 'US' AND zn_code = 'HI';
+UPDATE static_country_zones SET zn_name_pl = 'Idaho' WHERE zn_country_iso_2 = 'US' AND zn_code = 'ID';
+UPDATE static_country_zones SET zn_name_pl = 'Illinois' WHERE zn_country_iso_2 = 'US' AND zn_code = 'IL';
+UPDATE static_country_zones SET zn_name_pl = 'Indiana' WHERE zn_country_iso_2 = 'US' AND zn_code = 'IN';
+UPDATE static_country_zones SET zn_name_pl = 'Iowa' WHERE zn_country_iso_2 = 'US' AND zn_code = 'IA';
+UPDATE static_country_zones SET zn_name_pl = 'Kansas' WHERE zn_country_iso_2 = 'US' AND zn_code = 'KS';
+UPDATE static_country_zones SET zn_name_pl = 'Kentucky' WHERE zn_country_iso_2 = 'US' AND zn_code = 'KY';
+UPDATE static_country_zones SET zn_name_pl = 'Luizjana' WHERE zn_country_iso_2 = 'US' AND zn_code = 'LA';
+UPDATE static_country_zones SET zn_name_pl = 'Maine' WHERE zn_country_iso_2 = 'US' AND zn_code = 'ME';
+UPDATE static_country_zones SET zn_name_pl = 'Maryland' WHERE zn_country_iso_2 = 'US' AND zn_code = 'MD';
+UPDATE static_country_zones SET zn_name_pl = 'Massachusetts' WHERE zn_country_iso_2 = 'US' AND zn_code = 'MA';
+UPDATE static_country_zones SET zn_name_pl = 'Michigan' WHERE zn_country_iso_2 = 'US' AND zn_code = 'MI';
+UPDATE static_country_zones SET zn_name_pl = 'Minnesota' WHERE zn_country_iso_2 = 'US' AND zn_code = 'MN';
+UPDATE static_country_zones SET zn_name_pl = 'Missisipi' WHERE zn_country_iso_2 = 'US' AND zn_code = 'MS';
+UPDATE static_country_zones SET zn_name_pl = 'Missouri' WHERE zn_country_iso_2 = 'US' AND zn_code = 'MO';
+UPDATE static_country_zones SET zn_name_pl = 'Montana' WHERE zn_country_iso_2 = 'US' AND zn_code = 'MT';
+UPDATE static_country_zones SET zn_name_pl = 'Nebraska' WHERE zn_country_iso_2 = 'US' AND zn_code = 'NE';
+UPDATE static_country_zones SET zn_name_pl = 'Nevada' WHERE zn_country_iso_2 = 'US' AND zn_code = 'NV';
+UPDATE static_country_zones SET zn_name_pl = 'New Hampshire' WHERE zn_country_iso_2 = 'US' AND zn_code = 'NH';
+UPDATE static_country_zones SET zn_name_pl = 'New Jersey' WHERE zn_country_iso_2 = 'US' AND zn_code = 'NJ';
+UPDATE static_country_zones SET zn_name_pl = 'Nowy Meksyk' WHERE zn_country_iso_2 = 'US' AND zn_code = 'NM';
+UPDATE static_country_zones SET zn_name_pl = 'Nowy Jork' WHERE zn_country_iso_2 = 'US' AND zn_code = 'NY';
+UPDATE static_country_zones SET zn_name_pl = 'Karolina Północna' WHERE zn_country_iso_2 = 'US' AND zn_code = 'NC';
+UPDATE static_country_zones SET zn_name_pl = 'Dakota Północna' WHERE zn_country_iso_2 = 'US' AND zn_code = 'ND';
+UPDATE static_country_zones SET zn_name_pl = 'Ohio' WHERE zn_country_iso_2 = 'US' AND zn_code = 'OH';
+UPDATE static_country_zones SET zn_name_pl = 'Oklahoma' WHERE zn_country_iso_2 = 'US' AND zn_code = 'OK';
+UPDATE static_country_zones SET zn_name_pl = 'Oregon' WHERE zn_country_iso_2 = 'US' AND zn_code = 'OR';
+UPDATE static_country_zones SET zn_name_pl = 'Pensylwania' WHERE zn_country_iso_2 = 'US' AND zn_code = 'PA';
+UPDATE static_country_zones SET zn_name_pl = 'Portoryko' WHERE zn_country_iso_2 = 'US' AND zn_code = 'PR';
+UPDATE static_country_zones SET zn_name_pl = 'Rhode Island' WHERE zn_country_iso_2 = 'US' AND zn_code = 'RI';
+UPDATE static_country_zones SET zn_name_pl = 'Karolina Południowa' WHERE zn_country_iso_2 = 'US' AND zn_code = 'SC';
+UPDATE static_country_zones SET zn_name_pl = 'Dakota Południowa' WHERE zn_country_iso_2 = 'US' AND zn_code = 'SD';
+UPDATE static_country_zones SET zn_name_pl = 'Tennessee' WHERE zn_country_iso_2 = 'US' AND zn_code = 'TN';
+UPDATE static_country_zones SET zn_name_pl = 'Teksas' WHERE zn_country_iso_2 = 'US' AND zn_code = 'TX';
+UPDATE static_country_zones SET zn_name_pl = 'Utah' WHERE zn_country_iso_2 = 'US' AND zn_code = 'UT';
+UPDATE static_country_zones SET zn_name_pl = 'Vermont' WHERE zn_country_iso_2 = 'US' AND zn_code = 'VT';
+UPDATE static_country_zones SET zn_name_pl = 'Wirginia' WHERE zn_country_iso_2 = 'US' AND zn_code = 'VA';
+UPDATE static_country_zones SET zn_name_pl = 'Waszyngton' WHERE zn_country_iso_2 = 'US' AND zn_code = 'WA';
+UPDATE static_country_zones SET zn_name_pl = 'Wirginia Zachodnia' WHERE zn_country_iso_2 = 'US' AND zn_code = 'WV';
+UPDATE static_country_zones SET zn_name_pl = 'Wisconsin' WHERE zn_country_iso_2 = 'US' AND zn_code = 'WI';
+UPDATE static_country_zones SET zn_name_pl = 'Wyoming' WHERE zn_country_iso_2 = 'US' AND zn_code = 'WY';
+
+## Update for data inserted previously by static_info_tables
+UPDATE static_country_zones SET zn_name_pl = zn_name_local WHERE zn_country_iso_2 = 'PL';
